@@ -1,0 +1,8 @@
+Cid = str(input('Digite uma palavra: '))
+print(f'A palavra em letras maiusculas é {Cid.upper()}')
+print(f'A palavra em letras minusculas é: {Cid.lower()}')
+Cid = Cid.strip()
+N = len(Cid.replace(" ", ''))
+print(f'A quantidade de letras (sem espaços): {N}')
+P1 = len(Cid.split()[0])
+print(f'O primeiro Nome tem {P1} letras')
